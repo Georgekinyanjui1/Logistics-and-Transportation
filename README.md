@@ -15,7 +15,7 @@ This is a Logistic and Transportation landing page.It contains names and images 
  * Json
  
 ## Support and contact details
-{You can reach me @dennis.kamau@student.moringaschool.com}
+{You can reach me @george.kinyanjui@student.moringaschool.com}
 ### License
 MIT License
 
