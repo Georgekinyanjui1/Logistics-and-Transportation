@@ -58,3 +58,14 @@ service.addEventListener("click", (e) => {
 
         })
 })
+let formation = document.getElementById("infor");
+formation.addEventListener("click", (e) => {
+    e.preventDefault
+    fetch("https://georgekinyanjui1.github.io/API/db.json")
+        .then((resp) => resp.json())
+        .then((data) => {
+            let known = document.createElement("li")
+            known.innerText = data.Transport[0].information
+            formation.appendChild(known)
+        })
+})
