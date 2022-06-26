@@ -96,3 +96,19 @@ nav>div>p>span {
 #button {
     background-color: mediumblue;
 }
+
+#sect4>div>form {
+    border: 1px solid black;
+    background-color: gray;
+    border-radius: 5px;
+    padding-right: 50px;
+}
+
+#sect4>div {
+    margin-left: 50px
+}
+
+#sect4>div>form:hover {
+    background-color: gold;
+    color: black;
+}
