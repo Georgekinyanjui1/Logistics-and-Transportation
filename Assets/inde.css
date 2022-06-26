@@ -1,5 +1,5 @@
 body {
-    background-image: url(/Asset/images/containers.jpeg);
+    background-image: url("/Assets/images/containers.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -43,7 +43,7 @@ body {
     list-style: none;
 }
 
-para2:hover {
+.para2:hover {
     background-color: lawngreen;
 }
 
