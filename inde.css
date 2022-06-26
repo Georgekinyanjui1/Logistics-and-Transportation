@@ -7,3 +7,17 @@ body {
     margin: 0%;
     padding: 0%;
 }
+
+#container1 {
+    display: flex;
+}
+
+#subcont1 {
+    display: flex;
+    margin-left: 20px;
+    justify-content: space-around;
+}
+
+.para2>a {
+    text-decoration: none
+}
