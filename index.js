@@ -9,15 +9,20 @@ form.addEventListener("submit", (e) => {
 
     if (myName.value === '' || myName.value == null) {
         alert("Name is required")
+        e.preventDefault
+       
     } else {
         if (contact.value.length === 10) {
             alert("please confirm your number")
+             e.preventDefault
         } else {
             if (email.value === "" || email.value == null) {
                 alert("check your email to confirm")
+                 e.preventDefault
             } else {
                 if (place.value === "" || place.value == null) {
                     alert("invalid")
+                     e.preventDefault
                 }
             }
 
